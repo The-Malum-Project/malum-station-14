@@ -753,3 +753,15 @@
   isCrewJob: false
   tags: # Starlight-edit - should not be player accessible
   - JobIconCentComm
+
+  #Malum Additions TEMPORARILY PLACED HERE
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCommandingOfficer
+  icon:
+    sprite: *icon-rsi #Starlight
+    state: CBURN
+  jobName: "Commanding Officer"
+  tags: # Starlight-edit
+  - JobIconCrew

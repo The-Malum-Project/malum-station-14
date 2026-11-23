@@ -1,0 +1,47 @@
+- type: job
+  id: CommandingOfficer
+  name: "Commanding Officer"
+  description: "Placeholder Title"
+  playTimeTracker: JobCommandingOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobWarden
+      time: 10h # Starlight
+    - !type:RoleTimeRequirement
+      role: JobDetective
+      time: 5h # knowing how to use the tools is important # Starlight
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 15h # Starlight
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 50h # Starlight - Literally the most pressured role in the game, you need extensive knowledge of your department
+    - !type:TraitsRequirement # Starlight
+      traits:
+        - Iterator
+        - Muted
+        - Blindness
+      inverted: true
+  weight: 20
+  startingGear: COGear
+  icon: "JobIconCommandingOfficer"
+  supervisors: "A. Deimos, aka John FSC, aka the GOAT, aka Nr. 1 FSC"
+  access:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: COGear
+  equipment:
+    eyes: ClothingEyesGlassesMercenary
+    id: HoSPDA
+    # gloves: ClothingHandsGlovesCombat # Starlight
+    ears: ClothingHeadsetAltSecurity
+  storage:
+    back:
+    - Flash

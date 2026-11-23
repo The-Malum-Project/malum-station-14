@@ -3,8 +3,11 @@ language-chat-confirmation = Message will send in {$lang}.
 language-Universal-name = Universal
 language-Universal-description = What are you?
 
-language-GalacticCommon-name = Galactic Common
-language-GalacticCommon-description = The common galactic tongue, engineered for cross-species communication. Every spacer there is knows this!
+language-BremenGerman-name = Bremen German
+language-BremenGerman-description = A germanic language resembling archaic German, spoken by the native Bremen inhabitants of the forest.
+
+language-GalacticCommon-name = English
+language-GalacticCommon-description = The foremost language for international communication. And the operating language of the Paranatural Research and Defence Centre: Malum. 
 
 language-Sign-name = Galactic Sign Language
 language-Sign-description = A sign language commonly used for those who are deaf or mute. Especially popular with spacers, due to practicality in airless environments.
@@ -12,8 +15,8 @@ language-Sign-description = A sign language commonly used for those who are deaf
 language-ClassicalSign-name = Classical Sign Language
 language-ClassicalSign-description = An older, more obscure sign language originating from Terra. It is completely distinct from Galactic Sign Language.
 
-language-SolCommon-name = Sol Common
-language-SolCommon-description = An artifical language designed by the Trans-Solar Federation for ease of use and concise communication.
+language-SolCommon-name = Transatlantic Common
+language-SolCommon-description = An artifical language designed by the NATO for ease of use and concise communication.
 
 language-CygniStandard-name = Cygni Standard
 language-CygniStandard-description = An artifical language designed to remind speakers of the warsaw pact, with little accuracy. Spoken widely across the USSP, alongside Galactic Common and Sol Common.

@@ -2,8 +2,8 @@ job-name-atmostech = Atmospheric Technician
 job-name-bartender = Bartender
 job-name-borg = Cyborg
 job-name-botanist = Botanist
-job-name-brigmedic = Brigmedic
-job-name-cadet = Security Cadet
+job-name-brigmedic = Corpsman
+job-name-cadet = Cadet
 job-name-captain = Captain
 job-name-cargotech = Cargo Technician
 job-name-cburn = CentComm Quarantine Officer
@@ -17,7 +17,7 @@ job-name-cluwne = Cluwne
 job-name-cmo = Chief Medical Officer
 # Starlight: Capitalization fix:
 job-name-deathsquad = CentComm Agent
-job-name-detective = Detective
+job-name-detective = Security Investigator
 job-name-doctor = Medical Doctor
 job-name-engineer = Station Engineer
 job-name-ertchaplain = ERT Chaplain
@@ -27,7 +27,7 @@ job-name-ertleader = ERT Leader
 job-name-ertmedic = ERT Medic
 job-name-ertsecurity = ERT Security
 job-name-hop = Head of Personnel
-job-name-hos = Head of Security
+job-name-hos = Executive Officer
 job-name-intern = Medical Intern
 job-name-janitor = Janitor
 job-name-lawyer = Lawyer
@@ -43,12 +43,12 @@ job-name-reporter = Reporter
 job-name-research-assistant = Research Assistant
 job-name-salvagespec = Salvage Specialist
 job-name-scientist = Scientist
-job-name-security = Security Officer
+job-name-security = Trooper
 job-name-serviceworker = Service Worker
 job-name-station-ai = Station AI
 job-name-technical-assistant = Technical Assistant
 job-name-visitor = Visitor
-job-name-warden = Warden
+job-name-warden = Sentinel
 
 # unused jobs
 # these are required for the agent ID job icon tooltips

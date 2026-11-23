@@ -150,3 +150,8 @@
 
 - type: playTimeTracker
   id: JobWarden
+
+# Malum Edits Start
+
+- type: playTimeTracker
+  id: JobCommandingOfficer

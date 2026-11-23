@@ -83,6 +83,9 @@
   - DeathSquad
   - Magistrate
   - NanoTrasenRepresentative
+  # Malum Additions Start
+  - CommandingOfficer
+  # Malum Additions End
   primary: false
   weight: 100
 
@@ -124,8 +127,11 @@
   - Brigmedic
   - Detective
   - Warden
-  - DutyOfficer # Starlight
-  - K9 # Starlight
+  # - DutyOfficer # Starlight # Disabled for Malum
+  # - K9 # Starlight # Disabled for Malum
+  # Malum Additions Start
+  - CommandingOfficer
+  # Malum Additions End
 
 - type: department
   id: Science

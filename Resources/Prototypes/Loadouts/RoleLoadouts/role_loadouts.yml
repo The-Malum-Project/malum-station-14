@@ -469,8 +469,32 @@
   - GroupSpeciesBreathTool
 
 # Security
+
 - type: roleLoadout
   id: JobHeadOfSecurity
+  groups:
+  - HeadofSecurityHead
+  - EliteSecurityMask # Starlight
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - SecurityNonLethalWeapon #Starlight
+  - HeadofSecurityOuterClothing
+  - SecurityEyewear
+  - SecurityShoes
+  - SurvivalExtended # Starlight, since they can pick their mask now, they shouldn't get an extra security mask.
+  - InsulsCombat # Starlight
+  - Trinkets
+  - Scarves # Starlight
+  - Pins # Starlight
+  - Pens # Starlight
+  - HeadofSecurityJobTrinkets
+  - GroupSpeciesBreathToolSecurity
+
+  #malum addition
+- type: roleLoadout
+  id: JobCommandingOfficer
   groups:
   - HeadofSecurityHead
   - EliteSecurityMask # Starlight
